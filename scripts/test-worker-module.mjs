@@ -1,0 +1,11 @@
+import { build } from 'esbuild';
+import { runInNewContext } from 'node:vm';
+import assert from 'node:assert/strict';
+const result = await build({ entryPoints:['examples/demo-content/entries.ts'], bundle:true, platform:'browser', format:'iife', globalName:'Demo', write:false });
+const scope = { crypto:{randomUUID(){throw new Error('Random generation forbidden at module scope');}} };
+runInNewContext(result.outputFiles[0].text,scope);
+assert.equal(typeof scope.Demo.makeDemoEntries,'function');
+scope.crypto.randomUUID=()=> 'request-generated-id';
+assert.equal(scope.Demo.makeDemoEntries().length,4);
+assert.equal(scope.Demo.makeDemoEntries()[0].id,'demo-learning');
+console.log('PASS: example module loads without request-scoped operations; explicit import remains usable');

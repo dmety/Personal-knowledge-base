@@ -1,0 +1,20 @@
+{
+  "name": "zhixu-open-source",
+  "interface": {
+    "displayName": "Zhixu Open Source"
+  },
+  "plugins": [
+    {
+      "name": "zhixu",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zhixu"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

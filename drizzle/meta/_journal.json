@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791517821457,
+      "tag": "0000_sleepy_logan",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791787544585,
+      "tag": "0001_fancy_hellcat",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791979200000,
+      "tag": "0002_capture_references",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1791979647051,
+      "tag": "0003_personal_profiles",
+      "breakpoints": true
+    }
+  ]
+}
