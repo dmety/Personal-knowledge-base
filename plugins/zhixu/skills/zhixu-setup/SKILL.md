@@ -3,7 +3,7 @@ name: zhixu-setup
 description: 指导使用者在自己的 Sites 账号中部署知序并连接个人知识插件；用于知序安装、资源配置或连接排查。
 ---
 
-先区分用户需要部署新实例还是连接已有实例。知序开源仓库是 https://github.com/dmety/zhixu 。本技能包只有指导和工作流，不含可调用的共享 MCP，不提供作者的站点资源。
+先区分用户需要部署新实例还是连接已有实例。知序开源仓库是 https://github.com/dmety/Personal-knowledge-base 。本技能包只有指导和工作流，不含可调用的共享 MCP，不提供作者的站点资源。
 
 部署时阅读 [Sites 部署步骤](references/sites-deployment.md)。有可用 Sites 插件时使用其技能与原生工作流；没有时提供安装 Sites 插件和打开仓库的步骤，不能声称创建了资源。只在用户自己的克隆目录和账号操作。保留已有实例的 ID，创建超时先查询确认，不重复创建；不能复制他人的项目 ID、连接地址、身份头或凭据。
 

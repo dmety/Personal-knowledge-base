@@ -6,8 +6,8 @@
     "name": "dmety",
     "url": "https://github.com/dmety"
   },
-  "homepage": "https://github.com/dmety/zhixu",
-  "repository": "https://github.com/dmety/zhixu",
+  "homepage": "https://github.com/dmety/Personal-knowledge-base",
+  "repository": "https://github.com/dmety/Personal-knowledge-base",
   "license": "MIT",
   "keywords": [
     "knowledge",
@@ -28,10 +28,10 @@
       "Search connected knowledge",
       "Prepare reviewable drafts"
     ],
-    "websiteURL": "https://github.com/dmety/zhixu",
-    "supportURL": "https://github.com/dmety/zhixu/issues",
-    "privacyPolicyURL": "https://github.com/dmety/zhixu/blob/main/docs/隐私说明.md",
-    "termsOfServiceURL": "https://github.com/dmety/zhixu/blob/main/docs/使用条款.md",
+    "websiteURL": "https://github.com/dmety/Personal-knowledge-base",
+    "supportURL": "https://github.com/dmety/Personal-knowledge-base/issues",
+    "privacyPolicyURL": "https://github.com/dmety/Personal-knowledge-base/blob/main/docs/隐私说明.md",
+    "termsOfServiceURL": "https://github.com/dmety/Personal-knowledge-base/blob/main/docs/使用条款.md",
     "defaultPrompt": [
       "Help me deploy my own Zhixu workspace.",
       "Search my connected knowledge and cite sources.",
