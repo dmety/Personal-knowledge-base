@@ -43,20 +43,7 @@
         "composerIcon": "./assets/icon.svg",
         "logo": "./assets/icon.svg"
       },
-      "onboardingSkill": "./skills/zhixu-setup/SKILL.md",
-      "review": {
-        "commerce": false,
-        "commerce_description": "The package does not sell products or process payments. Users provide their own hosting resources."
-      },
-      "publication": {
-        "release_notes": "Initial self-hosted knowledge skills release. No shared MCP or publisher resources.",
-        "translations": {
-          "zh-CN": {
-            "subtitle": "部署自己的知识库，检索与审核资料",
-            "description": "在自己的 Sites 中部署知序并连接个人插件，在对话中检索原文、保留来源、收集待审核草稿和提出主题关系。本技能包不含共享 MCP，不使用作者站点资源。数据操作需要自己的实例与单独认证。"
-          }
-        }
-      }
+      "onboardingSkill": "./skills/zhixu-setup/SKILL.md"
     }
   }
 }

@@ -43,7 +43,7 @@ codex plugin marketplace add dmety/zhixu
 
 运行 `$zhixu-setup` 了解部署与连接；知识整理使用 `$knowledge-workflow`。必须另行部署自己的站点、安装该站点生成的个人插件并完成认证，技能才能调用数据工具。详见 [插件使用与配置](docs/插件使用.md)。
 
-GitHub Release 提供同一技能包 ZIP。官方插件目录需独立审核；请查看 [提交状态](docs/官方目录提交.md)，GitHub 发布不代表官方目录已上架。
+GitHub Release 提供技能包 ZIP。通过 GitHub 安装源分发，无需开发者身份验证。
 
 ## 验证与架构
 
